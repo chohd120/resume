@@ -1,0 +1,47 @@
+@media only screen and (max-width: 900px) {
+    #header h1 {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-size: 50px;
+    }
+
+    #header h1 span:nth-child(2) {
+        display: block;
+    }
+
+    #header .nav .depth1>li>a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #header.on {
+        background: rgba(0, 0, 0, 1);
+        overflow: visible;
+    }
+
+    #header .open-gnb {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 5px;
+        width: 25px;
+        height: 17px;
+        z-index: 9999999
+    }
+
+    #header .open-gnb span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin-bottom: 4px;
+        border-radius: 10px;
+        transition: all 0.5s
+    }
+
+
+
+
+}
